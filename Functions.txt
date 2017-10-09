@@ -1,0 +1,16 @@
+Functions with Parameters
+Parameters pass information in and out of a method.
+To pass a parameter, include them inside the parenthesis after the method name
+When more than one parameter is passed, commas are used
+When a method is called, the parameter has to be passed to the method
+Parameters can be categorized in different ways
+ref is put before the data type in a ref parameter
+Dynamic parameters - passed dynamically
+Default parameters or Optional arguments
+Value parameter/Passing value types by value - when variable is passed as a value and contains data not directly in the reference
+Named parameter - improves readability, easy, reduces bugs
+Out parameters - similar to ref parameter
+
+Functions with Return
+Return types specify how the data will return to the function.
+void - no value will be returned
