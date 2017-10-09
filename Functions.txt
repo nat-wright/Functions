@@ -14,3 +14,12 @@ Out parameters - similar to ref parameter
 Functions with Return
 Return types specify how the data will return to the function.
 void - no value will be returned
+Can return any data
+ReturnPassword (string _login){
+	if(_login == "Password") {
+		return "correct";
+	} else {
+		return "incorrect";
+	}
+}
+
