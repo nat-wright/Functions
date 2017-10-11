@@ -23,3 +23,16 @@ ReturnPassword (string _login){
 	}
 }
 
+int ReturnNum (int _num, int _num2) {
+		
+	return _num + _num2;
+}
+
+void Start () {
+		
+	myScore = ReturnNum (health, ammo);
+		
+	myPassword = ReturnPassword (myPassword);
+	
+}
+
